@@ -1,0 +1,18 @@
+[2024-09-19T16:24:45.654+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-09-19T16:24:45.656+0000] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-09-19T16:24:45.723+0000] {scheduler_job_runner.py:935} INFO - Starting the scheduler
+[2024-09-19T16:24:45.724+0000] {scheduler_job_runner.py:942} INFO - Processing each file at most -1 times
+[2024-09-19T16:24:45.736+0000] {manager.py:177} INFO - Launched DagFileProcessorManager with pid: 11483
+[2024-09-19T16:24:45.738+0000] {scheduler_job_runner.py:1846} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-09-19T16:24:45.741+0000] {settings.py:63} INFO - Configured default timezone UTC
+[2024-09-19T16:24:45.768+0000] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-09-19T16:29:45.999+0000] {scheduler_job_runner.py:1846} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-09-19T16:34:46.138+0000] {scheduler_job_runner.py:1846} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-09-19T16:35:30.133+0000] {scheduler_job_runner.py:260} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-19T16:35:31.137+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 11483. PIDs of all processes in the group: [11483]
+[2024-09-19T16:35:31.138+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 11483
+[2024-09-19T16:35:31.321+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=11483, status='terminated', exitcode=0, started='16:24:45') (11483) terminated with exit code 0
+[2024-09-19T16:35:31.323+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 11483. PIDs of all processes in the group: []
+[2024-09-19T16:35:31.323+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 11483
+[2024-09-19T16:35:31.324+0000] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 11483 as process group is missing.
+[2024-09-19T16:35:31.324+0000] {scheduler_job_runner.py:1014} INFO - Exited execute loop

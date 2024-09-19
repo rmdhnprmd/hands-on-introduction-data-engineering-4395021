@@ -1,0 +1,9 @@
+[2024-09-19 16:24:45 +0000] [11479] [INFO] Starting gunicorn 23.0.0
+[2024-09-19 16:24:45 +0000] [11479] [INFO] Listening at: http://[::]:8793 (11479)
+[2024-09-19 16:24:45 +0000] [11479] [INFO] Using worker: sync
+[2024-09-19 16:24:45 +0000] [11480] [INFO] Booting worker with pid: 11480
+[2024-09-19 16:24:45 +0000] [11481] [INFO] Booting worker with pid: 11481
+[2024-09-19 16:35:31 +0000] [11479] [INFO] Handling signal: term
+[2024-09-19 16:35:31 +0000] [11480] [INFO] Worker exiting (pid: 11480)
+[2024-09-19 16:35:31 +0000] [11481] [INFO] Worker exiting (pid: 11481)
+[2024-09-19 16:35:31 +0000] [11479] [INFO] Shutting down: Master
