@@ -1013,3 +1013,9 @@ File Path                                                                       
 /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.30s           2024-09-19T16:34:16
 ================================================================================
 [2024-09-19T16:34:36.617+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-19T22:55:53.127+0000] {manager.py:486} INFO - Processing files using up to 1 processes at a time 
+[2024-09-19T22:55:53.127+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2024-09-19T22:55:53.128+0000] {manager.py:488} INFO - Checking for new files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags every 300 seconds
+[2024-09-19T22:55:53.128+0000] {manager.py:832} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-19T22:55:53.129+0000] {manager.py:835} INFO - There are 0 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-19T23:00:42.812+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
