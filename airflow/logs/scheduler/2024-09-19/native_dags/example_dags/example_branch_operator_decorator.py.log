@@ -83,3 +83,24 @@
 [2024-09-19T16:35:12.312+0000] {logging_mixin.py:190} INFO - [2024-09-19T16:35:12.311+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-19T16:35:12.328+0000] {logging_mixin.py:190} INFO - [2024-09-19T16:35:12.328+0000] {dag.py:4156} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2024-09-18 00:00:00+00:00, run_after=2024-09-19 00:00:00+00:00
 [2024-09-19T16:35:12.387+0000] {processor.py:208} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.120 seconds
+[2024-09-19T23:22:58.755+0000] {processor.py:186} INFO - Started process (PID=20192) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:22:58.756+0000] {processor.py:914} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-09-19T23:22:58.758+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:22:58.757+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:22:58.775+0000] {processor.py:925} INFO - DAG(s) 'example_branch_python_operator_decorator' retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:22:58.857+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:22:58.857+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T23:22:58.871+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:22:58.871+0000] {dag.py:4156} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2024-09-18 00:00:00+00:00, run_after=2024-09-19 00:00:00+00:00
+[2024-09-19T23:22:58.930+0000] {processor.py:208} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.180 seconds
+[2024-09-19T23:23:57.067+0000] {processor.py:186} INFO - Started process (PID=20640) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:23:57.068+0000] {processor.py:914} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-09-19T23:23:57.070+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:23:57.070+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:23:57.087+0000] {processor.py:925} INFO - DAG(s) 'example_branch_python_operator_decorator' retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:23:57.105+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:23:57.105+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T23:23:57.121+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:23:57.121+0000] {dag.py:4156} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2024-09-18 00:00:00+00:00, run_after=2024-09-19 00:00:00+00:00
+[2024-09-19T23:23:57.175+0000] {processor.py:208} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.114 seconds
+[2024-09-19T23:24:54.871+0000] {processor.py:186} INFO - Started process (PID=21123) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:24:54.872+0000] {processor.py:914} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-09-19T23:24:54.874+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:24:54.873+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:24:54.891+0000] {processor.py:925} INFO - DAG(s) 'example_branch_python_operator_decorator' retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-19T23:24:54.909+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:24:54.909+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-19T23:24:54.924+0000] {logging_mixin.py:190} INFO - [2024-09-19T23:24:54.924+0000] {dag.py:4156} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2024-09-18 00:00:00+00:00, run_after=2024-09-19 00:00:00+00:00
+[2024-09-19T23:24:54.973+0000] {processor.py:208} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.106 seconds

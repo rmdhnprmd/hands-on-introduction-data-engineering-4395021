@@ -15,3 +15,37 @@
 2024-09-19 16:35:31,323 INFO - Sending the signal Signals.SIGTERM to group 11483
 2024-09-19 16:35:31,324 INFO - Sending the signal Signals.SIGTERM to process 11483 as process group is missing.
 2024-09-19 16:35:31,324 INFO - Exited execute loop
+2024-09-19 23:22:17,845 WARNING - Could not import pandas. Holidays will not be considered.
+2024-09-19 23:22:17,848 INFO - Loaded executor: SequentialExecutor
+2024-09-19 23:22:17,923 INFO - Starting the scheduler
+2024-09-19 23:22:17,924 INFO - Processing each file at most -1 times
+2024-09-19 23:22:17,935 INFO - Launched DagFileProcessorManager with pid: 19896
+2024-09-19 23:22:17,937 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-19 23:22:17,940 INFO - Configured default timezone UTC
+2024-09-19 23:25:33,510 INFO - Exiting gracefully upon receiving signal 15
+2024-09-19 23:25:34,513 INFO - Sending Signals.SIGTERM to group 19896. PIDs of all processes in the group: [19896]
+2024-09-19 23:25:34,514 INFO - Sending the signal Signals.SIGTERM to group 19896
+2024-09-19 23:25:34,687 INFO - Process psutil.Process(pid=19896, status='terminated', exitcode=0, started='23:22:17') (19896) terminated with exit code 0
+2024-09-19 23:25:34,689 INFO - Sending Signals.SIGTERM to group 19896. PIDs of all processes in the group: []
+2024-09-19 23:25:34,689 INFO - Sending the signal Signals.SIGTERM to group 19896
+2024-09-19 23:25:34,689 INFO - Sending the signal Signals.SIGTERM to process 19896 as process group is missing.
+2024-09-19 23:25:34,690 INFO - Exited execute loop
+2024-09-19 23:25:59,195 INFO - Loaded executor: SequentialExecutor
+2024-09-19 23:25:59,294 INFO - Starting the scheduler
+2024-09-19 23:25:59,295 INFO - Processing each file at most -1 times
+2024-09-19 23:25:59,309 INFO - Launched DagFileProcessorManager with pid: 21755
+2024-09-19 23:25:59,311 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-19 23:25:59,313 INFO - Configured default timezone UTC
+2024-09-19 23:26:47,304 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-09-19T23:26:46.734156+00:00 [scheduled]>
+2024-09-19 23:26:47,305 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-09-19 23:26:47,305 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-09-19T23:26:46.734156+00:00 [scheduled]>
+2024-09-19 23:26:47,307 INFO - Trying to enqueue tasks: [<TaskInstance: one_task_dag.one_task manual__2024-09-19T23:26:46.734156+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-09-19 23:26:47,307 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-09-19T23:26:46.734156+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-09-19 23:26:47,308 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-09-19T23:26:46.734156+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-09-19 23:26:47,357 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-09-19T23:26:46.734156+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-09-19 23:26:49,493 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-09-19T23:26:46.734156+00:00', try_number=1, map_index=-1)
+2024-09-19 23:26:49,499 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-09-19T23:26:46.734156+00:00, map_index=-1, run_start_date=2024-09-19 23:26:48.874856+00:00, run_end_date=2024-09-19 23:26:49.180147+00:00, run_duration=0.305291, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-19 23:26:47.306203+00:00, queued_by_job_id=3, pid=22077
+2024-09-19 23:26:49,525 INFO - Marking run <DagRun one_task_dag @ 2024-09-19 23:26:46.734156+00:00: manual__2024-09-19T23:26:46.734156+00:00, state:running, queued_at: 2024-09-19 23:26:46.789460+00:00. externally triggered: True> successful
+2024-09-19 23:26:49,526 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-09-19 23:26:46.734156+00:00, run_id=manual__2024-09-19T23:26:46.734156+00:00, run_start_date=2024-09-19 23:26:47.149315+00:00, run_end_date=2024-09-19 23:26:49.526303+00:00, run_duration=2.376988, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-09-19 23:26:46.734156+00:00, data_interval_end=2024-09-19 23:26:46.734156+00:00, dag_hash=28eb05b3c92cd2209593441ade419476
