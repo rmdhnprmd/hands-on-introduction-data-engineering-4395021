@@ -49,3 +49,11 @@
 2024-09-19 23:26:49,499 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-09-19T23:26:46.734156+00:00, map_index=-1, run_start_date=2024-09-19 23:26:48.874856+00:00, run_end_date=2024-09-19 23:26:49.180147+00:00, run_duration=0.305291, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-19 23:26:47.306203+00:00, queued_by_job_id=3, pid=22077
 2024-09-19 23:26:49,525 INFO - Marking run <DagRun one_task_dag @ 2024-09-19 23:26:46.734156+00:00: manual__2024-09-19T23:26:46.734156+00:00, state:running, queued_at: 2024-09-19 23:26:46.789460+00:00. externally triggered: True> successful
 2024-09-19 23:26:49,526 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-09-19 23:26:46.734156+00:00, run_id=manual__2024-09-19T23:26:46.734156+00:00, run_start_date=2024-09-19 23:26:47.149315+00:00, run_end_date=2024-09-19 23:26:49.526303+00:00, run_duration=2.376988, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-09-19 23:26:46.734156+00:00, data_interval_end=2024-09-19 23:26:46.734156+00:00, dag_hash=28eb05b3c92cd2209593441ade419476
+2024-09-19 23:30:29,863 INFO - Exiting gracefully upon receiving signal 15
+2024-09-19 23:30:30,865 INFO - Sending Signals.SIGTERM to group 21755. PIDs of all processes in the group: [21755]
+2024-09-19 23:30:30,866 INFO - Sending the signal Signals.SIGTERM to group 21755
+2024-09-19 23:30:31,085 INFO - Process psutil.Process(pid=21755, status='terminated', exitcode=0, started='23:25:59') (21755) terminated with exit code 0
+2024-09-19 23:30:31,088 INFO - Sending Signals.SIGTERM to group 21755. PIDs of all processes in the group: []
+2024-09-19 23:30:31,088 INFO - Sending the signal Signals.SIGTERM to group 21755
+2024-09-19 23:30:31,088 INFO - Sending the signal Signals.SIGTERM to process 21755 as process group is missing.
+2024-09-19 23:30:31,089 INFO - Exited execute loop

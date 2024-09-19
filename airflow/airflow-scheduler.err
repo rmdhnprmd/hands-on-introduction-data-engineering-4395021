@@ -3,3 +3,7 @@
 [2024-09-19 23:25:59 +0000] [21746] [INFO] Using worker: sync
 [2024-09-19 23:25:59 +0000] [21753] [INFO] Booting worker with pid: 21753
 [2024-09-19 23:25:59 +0000] [21754] [INFO] Booting worker with pid: 21754
+[2024-09-19 23:30:31 +0000] [21746] [INFO] Handling signal: term
+[2024-09-19 23:30:31 +0000] [21753] [INFO] Worker exiting (pid: 21753)
+[2024-09-19 23:30:31 +0000] [21754] [INFO] Worker exiting (pid: 21754)
+[2024-09-19 23:30:31 +0000] [21746] [INFO] Shutting down: Master
