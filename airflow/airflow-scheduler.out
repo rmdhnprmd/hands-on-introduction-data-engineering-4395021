@@ -1,0 +1,16 @@
+[2024-09-21T06:51:02.577+0000] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-09-21T06:51:02.659+0000] {scheduler_job_runner.py:935} INFO - Starting the scheduler
+[2024-09-21T06:51:02.660+0000] {scheduler_job_runner.py:942} INFO - Processing each file at most -1 times
+[2024-09-21T06:51:02.671+0000] {manager.py:177} INFO - Launched DagFileProcessorManager with pid: 4510
+[2024-09-21T06:51:02.673+0000] {scheduler_job_runner.py:1846} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-09-21T06:51:02.676+0000] {settings.py:63} INFO - Configured default timezone UTC
+[2024-09-21T06:51:02.685+0000] {scheduler_job_runner.py:1869} INFO - Marked 1 SchedulerJob instances as failed
+[2024-09-21T06:51:02.701+0000] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-09-21T06:51:13.473+0000] {scheduler_job_runner.py:260} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-21T06:51:14.477+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 4510. PIDs of all processes in the group: [4510]
+[2024-09-21T06:51:14.478+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 4510
+[2024-09-21T06:51:14.650+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=4510, status='terminated', exitcode=0, started='06:51:01') (4510) terminated with exit code 0
+[2024-09-21T06:51:14.653+0000] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 4510. PIDs of all processes in the group: []
+[2024-09-21T06:51:14.654+0000] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 4510
+[2024-09-21T06:51:14.654+0000] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 4510 as process group is missing.
+[2024-09-21T06:51:14.654+0000] {scheduler_job_runner.py:1014} INFO - Exited execute loop

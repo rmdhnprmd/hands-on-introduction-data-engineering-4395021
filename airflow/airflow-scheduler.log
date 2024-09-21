@@ -1,0 +1,54 @@
+2024-09-19 23:36:28,481 INFO - Loaded executor: SequentialExecutor
+2024-09-19 23:36:28,574 INFO - Starting the scheduler
+2024-09-19 23:36:28,575 INFO - Processing each file at most -1 times
+2024-09-19 23:36:28,585 INFO - Launched DagFileProcessorManager with pid: 26745
+2024-09-19 23:36:28,587 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-19 23:36:28,590 INFO - Configured default timezone UTC
+2024-09-19 23:41:28,638 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-19 23:46:28,666 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-19 23:51:28,801 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-19 23:56:28,829 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-19 23:56:36,976 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-09-19T23:56:35.701007+00:00 [scheduled]>
+2024-09-19 23:56:36,977 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-09-19 23:56:36,977 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2024-09-19T23:56:35.701007+00:00 [scheduled]>
+2024-09-19 23:56:36,979 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_0 manual__2024-09-19T23:56:35.701007+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-09-19 23:56:36,979 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-09-19T23:56:35.701007+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-09-19 23:56:36,980 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-09-19T23:56:35.701007+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-09-19 23:56:37,016 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2024-09-19T23:56:35.701007+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-09-19 23:56:38,952 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2024-09-19T23:56:35.701007+00:00', try_number=1, map_index=-1)
+2024-09-19 23:56:38,961 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2024-09-19T23:56:35.701007+00:00, map_index=-1, run_start_date=2024-09-19 23:56:38.293076+00:00, run_end_date=2024-09-19 23:56:38.606567+00:00, run_duration=0.313491, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-09-19 23:56:36.978143+00:00, queued_by_job_id=1, pid=36084
+2024-09-19 23:56:39,047 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-09-19T23:56:35.701007+00:00 [scheduled]>
+2024-09-19 23:56:39,047 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2024-09-19 23:56:39,048 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2024-09-19T23:56:35.701007+00:00 [scheduled]>
+2024-09-19 23:56:39,049 INFO - Trying to enqueue tasks: [<TaskInstance: two_task_dag.bash_task_1 manual__2024-09-19T23:56:35.701007+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-09-19 23:56:39,049 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-09-19T23:56:35.701007+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2024-09-19 23:56:39,050 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-09-19T23:56:35.701007+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-09-19 23:56:39,085 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2024-09-19T23:56:35.701007+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-09-19 23:56:46,099 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2024-09-19T23:56:35.701007+00:00', try_number=1, map_index=-1)
+2024-09-19 23:56:46,102 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2024-09-19T23:56:35.701007+00:00, map_index=-1, run_start_date=2024-09-19 23:56:40.502642+00:00, run_end_date=2024-09-19 23:56:45.769877+00:00, run_duration=5.267235, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-19 23:56:39.048643+00:00, queued_by_job_id=1, pid=36102
+2024-09-19 23:56:46,163 INFO - Marking run <DagRun two_task_dag @ 2024-09-19 23:56:35.701007+00:00: manual__2024-09-19T23:56:35.701007+00:00, state:running, queued_at: 2024-09-19 23:56:35.765493+00:00. externally triggered: True> successful
+2024-09-19 23:56:46,163 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2024-09-19 23:56:35.701007+00:00, run_id=manual__2024-09-19T23:56:35.701007+00:00, run_start_date=2024-09-19 23:56:36.894515+00:00, run_end_date=2024-09-19 23:56:46.163873+00:00, run_duration=9.269358, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-09-19 23:56:35.701007+00:00, data_interval_end=2024-09-19 23:56:35.701007+00:00, dag_hash=f9ad1585c3df09b8600d54d900619f67
+2024-09-20 00:01:28,856 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-20 00:06:28,885 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-20 00:11:28,918 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-20 00:16:28,946 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-20 00:21:28,976 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-21 06:51:02,577 INFO - Loaded executor: SequentialExecutor
+2024-09-21 06:51:02,659 INFO - Starting the scheduler
+2024-09-21 06:51:02,660 INFO - Processing each file at most -1 times
+2024-09-21 06:51:02,671 INFO - Launched DagFileProcessorManager with pid: 4510
+2024-09-21 06:51:02,673 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-21 06:51:02,676 INFO - Configured default timezone UTC
+2024-09-21 06:51:02,685 INFO - Marked 1 SchedulerJob instances as failed
+2024-09-21 06:51:13,473 INFO - Exiting gracefully upon receiving signal 15
+2024-09-21 06:51:14,477 INFO - Sending Signals.SIGTERM to group 4510. PIDs of all processes in the group: [4510]
+2024-09-21 06:51:14,478 INFO - Sending the signal Signals.SIGTERM to group 4510
+2024-09-21 06:51:14,650 INFO - Process psutil.Process(pid=4510, status='terminated', exitcode=0, started='06:51:01') (4510) terminated with exit code 0
+2024-09-21 06:51:14,653 INFO - Sending Signals.SIGTERM to group 4510. PIDs of all processes in the group: []
+2024-09-21 06:51:14,654 INFO - Sending the signal Signals.SIGTERM to group 4510
+2024-09-21 06:51:14,654 INFO - Sending the signal Signals.SIGTERM to process 4510 as process group is missing.
+2024-09-21 06:51:14,654 INFO - Exited execute loop

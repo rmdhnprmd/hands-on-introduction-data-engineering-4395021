@@ -1,0 +1,9 @@
+[2024-09-21 06:51:02 +0000] [4501] [INFO] Starting gunicorn 23.0.0
+[2024-09-21 06:51:02 +0000] [4501] [INFO] Listening at: http://[::]:8793 (4501)
+[2024-09-21 06:51:02 +0000] [4501] [INFO] Using worker: sync
+[2024-09-21 06:51:02 +0000] [4505] [INFO] Booting worker with pid: 4505
+[2024-09-21 06:51:02 +0000] [4506] [INFO] Booting worker with pid: 4506
+[2024-09-21 06:51:14 +0000] [4501] [INFO] Handling signal: term
+[2024-09-21 06:51:14 +0000] [4506] [INFO] Worker exiting (pid: 4506)
+[2024-09-21 06:51:14 +0000] [4505] [INFO] Worker exiting (pid: 4505)
+[2024-09-21 06:51:14 +0000] [4501] [INFO] Shutting down: Master
